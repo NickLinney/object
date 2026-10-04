@@ -1,0 +1,111 @@
+{
+  "object_id": "OBJ-ABSTRACT-OBJECT-PACKAGE-STRUCTURE",
+  "object_kind": "Abstract Object Specification / Package Structure Template",
+  "version": "0.0.0-pre-alpha-1",
+  "entrypoint": "ABSTRACT-OBJECT-SPECIFICATION.md",
+  "status": "experimental_template",
+  "lifecycle": {
+    "state": "constructed",
+    "installation": "not_authorized",
+    "activation": "not_authorized",
+    "canonical_promotion": "not_authorized"
+  },
+  "required_roles": [
+    "manifest",
+    "applicable entrypoint",
+    "abstract specification",
+    "implementation abstract",
+    "contract",
+    "agents",
+    "catalog",
+    "objects",
+    "instantiations",
+    "references",
+    "schemas",
+    "scripts",
+    "validation"
+  ],
+  "nonclaims": [
+    "not a concrete Skill",
+    "not approval of any future package",
+    "not behavioral validation",
+    "not installation or activation"
+  ],
+  "files": [
+    {
+      "path": "ABSTRACT-OBJECT-SPECIFICATION.md",
+      "bytes": 2416,
+      "sha256": "827433e9ed499c39806b8f49f26ca380b4e64aae73853325695b33dd274a1155"
+    },
+    {
+      "path": "README.md",
+      "bytes": 675,
+      "sha256": "2ce0384371b78c1417b52998c9aae8793da4cd9134aa558d70bac2ee79050f56"
+    },
+    {
+      "path": "abstract-specification.md",
+      "bytes": 222,
+      "sha256": "6d26415e3553443e04d45a0a847e743fbf5c5fc27119d1c36bc7382583e1eb6a"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 236,
+      "sha256": "5205e49c4bb693cade3b279d59dae72b812ab723f1b5883df24071eb98425b7f"
+    },
+    {
+      "path": "catalog/source-register.json",
+      "bytes": 340,
+      "sha256": "dcb7ffa279e17148176be64bf59a4fc835ef1dd6cfa9c9304d407c143474b017"
+    },
+    {
+      "path": "contract.md",
+      "bytes": 559,
+      "sha256": "26939ee69dbad5235a56bd9aa45209f46f9f8ec7ad7b5b60077b43093120849a"
+    },
+    {
+      "path": "implementation-abstract.md",
+      "bytes": 656,
+      "sha256": "e2628ad36a602e7ea4e8b2ca04063f6564c435bc248cec8d55fd4b5c4e2f4aae"
+    },
+    {
+      "path": "instantiations/README.md",
+      "bytes": 162,
+      "sha256": "ecd393ee97664926a7d0bfff82c49d9c08832331ac101352b0fb4286db2e5be0"
+    },
+    {
+      "path": "objects/README.md",
+      "bytes": 173,
+      "sha256": "453d21c1bf34e88a67cbc715f270f5f5193df5824acd116db3768426e160826c"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 120,
+      "sha256": "f67b28546017f45831e37f9e372eee91cc00759c3a15fe478fbd98114cdd4dcd"
+    },
+    {
+      "path": "schemas/object-record.schema.json",
+      "bytes": 512,
+      "sha256": "df8f48f950da53c03f1acafc6e0ebb29ca76776d2acc283beb99d5333ccf48b9"
+    },
+    {
+      "path": "schemas/package.manifest.schema.json",
+      "bytes": 515,
+      "sha256": "227e1847612ea766e99010cf5b1111be60088c4088f15abfeab220a21a2729a8"
+    },
+    {
+      "path": "scripts/validate_package.py",
+      "bytes": 536,
+      "sha256": "bf80bee707ff0662479cf66fc766817c01a07ef5274da637c92716d314372cbe"
+    },
+    {
+      "path": "validation/README.md",
+      "bytes": 331,
+      "sha256": "8c957f70a88bc7827a070d1c1facc388389aa1196755b563e42f42fa60264dcc"
+    },
+    {
+      "path": "validation/template-validation.json",
+      "bytes": 307,
+      "sha256": "0b90fa36a0e0c7bbb515474d9032ffe795bef9ab9fba5085bbf2cf0f757e8136"
+    }
+  ]
+}

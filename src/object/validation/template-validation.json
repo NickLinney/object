@@ -1,0 +1,11 @@
+{
+  "state": "TEMPLATE_STRUCTURALLY_VALIDATED",
+  "behavioral_validation": "NOT_APPLICABLE_TO_TEMPLATE",
+  "future_package_validation": "REQUIRED",
+  "checks": [
+    "required roles present",
+    "JSON records parse",
+    "non-Skill entrypoint rule documented",
+    "lifecycle distinction documented"
+  ]
+}
