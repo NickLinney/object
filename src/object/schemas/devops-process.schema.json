@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "required": [
+    "process_id",
+    "controller",
+    "scope",
+    "gates",
+    "authority_boundary"
+  ],
+  "properties": {
+    "process_id": {
+      "type": "string"
+    },
+    "controller": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "gates": {
+      "type": "array"
+    },
+    "authority_boundary": {
+      "type": "string"
+    }
+  }
+}
