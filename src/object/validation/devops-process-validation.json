@@ -1,0 +1,13 @@
+{
+  "state": "VALIDATED_WITH_QUALIFIED_RESULTS",
+  "source_mapping": "PASS",
+  "ordered_gates_present": "PASS",
+  "branch_authority_distinctions": "PASS",
+  "release_checklist_mapped": "PASS",
+  "ThinkLikeACIO_encapsulation": "PASS",
+  "official_release_authority": "NOT_PRESENT",
+  "immutable_tag": "NOT_CREATED",
+  "publication": "NOT_PERFORMED",
+  "independent_behavioral_validation": "NOT_PERFORMED",
+  "qualification": "The capsule is structurally and semantically mapped to local policy sources; it is not evidence that an external release event occurred."
+}
