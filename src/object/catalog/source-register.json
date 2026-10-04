@@ -39,5 +39,19 @@
       "sha256": "a44139dde37da428796dac4ed62679829dd4de4f1e8a2ebb51db79abf5f0a8dd"
     }
   ],
-  "comparison_baseline": "pre-alpha-1 package manifest and sealed local execution registers"
+  "comparison_baseline": "pre-alpha-2 package manifest and sealed local execution registers",
+  "derivations": [
+    {
+      "source_id": "ThinkLikeACIO",
+      "target": "references/thinklikeacio-devops-encapsulation.md",
+      "transformation": "semantic encapsulation of authority, evidence, and state-transition boundaries",
+      "status": "transformed"
+    },
+    {
+      "source_id": "NickLinneyDev Releasing",
+      "target": "objects/devops-process-encapsulation.json",
+      "transformation": "process-to-Object representation preserving promotion gates and nonclaims",
+      "status": "transformed"
+    }
+  ]
 }

@@ -1,12 +1,12 @@
 {
   "object_id": "OBJ-ABSTRACT-OBJECT-PACKAGE-STRUCTURE",
   "object_kind": "Abstract Object Specification / Package Structure Template",
-  "version": "0.1.0-pre-alpha-2",
+  "version": "1.0.0-alpha.1",
   "entrypoint": "ABSTRACT-OBJECT-SPECIFICATION.md",
-  "status": "alpha_release_candidate_with_qualified_results",
+  "status": "alpha_with_qualified_validation",
   "lifecycle": {
     "state": "constructed_and_validated_with_gaps",
-    "promotion_label": "0.1.0-pre-alpha-2",
+    "promotion_label": "1.0.0-alpha.1",
     "release_authorization": "not evidenced",
     "installation": "not_authorized",
     "activation": "not_authorized",
@@ -14,6 +14,44 @@
     "tag": "not_created",
     "publication": "not_performed"
   },
+  "integrity": {
+    "algorithm": "sha256",
+    "content_inventory_excludes": [
+      "packet.manifest.json",
+      "validation/package-validation.json"
+    ],
+    "manifest_integrity": "delegated_to_external_release_envelope_or_signature",
+    "self_hash": "not_claimed"
+  },
+  "applicability": {
+    "manifest": "REQUIRED",
+    "applicable entrypoint": "REQUIRED",
+    "abstract specification": "REQUIRED",
+    "implementation abstract": "REQUIRED",
+    "contract": "REQUIRED",
+    "agents": "REQUIRED",
+    "catalog": "REQUIRED",
+    "objects": "REQUIRED",
+    "instantiations": "OPTIONAL",
+    "references": "REQUIRED",
+    "schemas": "REQUIRED",
+    "scripts": "REQUIRED",
+    "validation": "REQUIRED"
+  },
+  "schema_bindings": [
+    {
+      "artifact": "packet.manifest.json",
+      "schema": "schemas/package.manifest.schema.json"
+    },
+    {
+      "artifact": "objects/devops-process-encapsulation.json",
+      "schema": "schemas/object-record.schema.json"
+    },
+    {
+      "artifact": "objects/devops-process-encapsulation.json",
+      "schema": "schemas/devops-process.schema.json"
+    }
+  ],
   "required_roles": [
     "manifest",
     "applicable entrypoint",
@@ -58,8 +96,8 @@
     },
     {
       "path": "catalog/source-register.json",
-      "bytes": 2123,
-      "sha256": "7140bd8c04d83b4618bffc851561b248335de9f9e672140b7e2e5b9b3df31c64"
+      "bytes": 2650,
+      "sha256": "bf5127f3e59bdff84176011c0afab4e52af07b6a9a58cdff3e6a880b369ee722"
     },
     {
       "path": "contract.md",
@@ -87,11 +125,6 @@
       "sha256": "d776d3cf83231235daf7e9f9ab1cfd994b45e35729ddb116930e4f47a029ed1d"
     },
     {
-      "path": "packet.manifest.json",
-      "bytes": 4136,
-      "sha256": "8d45909447e7026e8dcc8d5443d15bd38ad6fdcb6538f4783caba315c23ac3a0"
-    },
-    {
       "path": "references/README.md",
       "bytes": 120,
       "sha256": "f67b28546017f45831e37f9e372eee91cc00759c3a15fe478fbd98114cdd4dcd"
@@ -108,13 +141,13 @@
     },
     {
       "path": "schemas/devops-process.schema.json",
-      "bytes": 400,
-      "sha256": "6b75204ef6ced75b112c808c8091e0dd32c59fa0a31da7923f3422ead0f10b96"
+      "bytes": 569,
+      "sha256": "e4ebde7454dfd0281be6f3bbddda52272d2dc3bbea4fe546b2b9f89e19f72e31"
     },
     {
       "path": "schemas/object-record.schema.json",
-      "bytes": 512,
-      "sha256": "df8f48f950da53c03f1acafc6e0ebb29ca76776d2acc283beb99d5333ccf48b9"
+      "bytes": 540,
+      "sha256": "a179aa18bb1d24fbd66d40be4e19cf37ec4c80e8c3fd0f5dc151f00996cfb0cf"
     },
     {
       "path": "schemas/package.manifest.schema.json",
@@ -123,13 +156,13 @@
     },
     {
       "path": "scripts/validate_package.py",
-      "bytes": 536,
-      "sha256": "bf80bee707ff0662479cf66fc766817c01a07ef5274da637c92716d314372cbe"
+      "bytes": 7388,
+      "sha256": "13a2da29e7c9c732904a8c864e4379d40c6abbd735a8308a7c32c00b7d086c4e"
     },
     {
       "path": "validation/README.md",
-      "bytes": 331,
-      "sha256": "8c957f70a88bc7827a070d1c1facc388389aa1196755b563e42f42fa60264dcc"
+      "bytes": 523,
+      "sha256": "5f10beeb686334c2d3bdf2e427c4d0195e2bab3621a06c60781a481d4ec5e520"
     },
     {
       "path": "validation/devops-process-validation.json",
