@@ -6,7 +6,7 @@ The package separates identity, semantics, implementation, contract, provenance,
 
 ## Status
 
-Current release: `0.0.0-pre-alpha.2`
+Current release: `1.0.0-alpha.1`
 
 This repository is experimental. Pre-alpha releases are immutable snapshots and provide no API stability guarantee.
 
@@ -23,4 +23,4 @@ This repository is experimental. Pre-alpha releases are immutable snapshots and 
 
 ## Validation
 
-The packaged Object provides its own deterministic validation tooling. Validation claims remain bounded to the checks actually executed; structural presence and JSON parsing are not equivalent to schema conformance.
+The packaged Object provides its own deterministic validation tooling. Validation claims remain bounded to the checks actually executed; structural presence and JSON parsing are distinct from schema conformance and content integrity.

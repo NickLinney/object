@@ -1,27 +1,29 @@
 {
   "type": "object",
   "required": [
-    "process_id",
+    "object_id",
+    "kind",
+    "name",
     "controller",
-    "scope",
-    "gates",
-    "authority_boundary"
+    "purpose",
+    "representation",
+    "authority",
+    "states",
+    "nonclaims"
   ],
   "properties": {
-    "process_id": {
-      "type": "string"
-    },
+    "object_id": { "type": "string" },
+    "kind": { "type": "string" },
+    "name": { "type": "string" },
     "controller": {
       "type": "string"
     },
-    "scope": {
+    "purpose": {
       "type": "string"
     },
-    "gates": {
-      "type": "array"
-    },
-    "authority_boundary": {
-      "type": "string"
-    }
+    "representation": { "type": "string" },
+    "authority": { "type": "string" },
+    "states": { "type": "array" },
+    "nonclaims": { "type": "array" }
   }
 }
