@@ -1,0 +1,25 @@
+{
+  "object_id": "OBJ-NICKLINNEY-DEVOPS-PROCESS-ENCAPSULATION",
+  "kind": "Process Specification",
+  "name": "NickLinneyDev Software Promotion Process",
+  "controller": "ThinkLikeACIO",
+  "purpose": "Govern promotion of the Abstract Object Package Structure through the requested pre-alpha-2 release event.",
+  "representation": "encapsulated process specification",
+  "authority": "descriptive local NickLinneyDev policy plus current user request; no merge/tag/publication authority inferred",
+  "states": [
+    "candidate",
+    "authorized_for_construction",
+    "constructed",
+    "validated_with_gaps",
+    "release-labeled",
+    "not_tagged",
+    "not_published"
+  ],
+  "nonclaims": [
+    "no official release approval",
+    "no immutable tag",
+    "no merge into main",
+    "no installation or activation",
+    "no production execution"
+  ]
+}

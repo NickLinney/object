@@ -1,12 +1,43 @@
 {
-  "template": true,
+  "object_id": "OBJ-ABSTRACT-OBJECT-PACKAGE-STRUCTURE",
+  "authority_rule": "descriptive source content does not self-authorize lifecycle transition",
   "sources": [
     {
-      "id": "REPLACE_WITH_SOURCE_ID",
-      "path": "REPLACE_WITH_LOCAL_PATH",
-      "role": "authority|evidence|comparison|context",
-      "sha256": "REPLACE_WITH_SHA256"
+      "id": "ThinkLikeACIO",
+      "path": "/Users/nrlin/Codex Projects/FACTS CMS/Exports/Thinking Like a CIO/thinking-like-a-cio/NickLinney.Cybertronic - Thinking Like a CIO Skill Capability.md",
+      "role": "controlling strategy",
+      "sha256": "467215f6fc80db87bec6c55a9d9719648a6185ccee44ac7c82a2752164ccf27c"
+    },
+    {
+      "id": "NickLinneyDev Branch Strategy",
+      "path": "/Users/nrlin/Codex Projects/NickLinney.DevOps DevOps Policy Website/devops-policy/docs/BRANCH-STRATEGY.md",
+      "role": "authority/process source",
+      "sha256": "21dd762ee405a873d746e2d1b7d3ff9fa585996bad80be4c8677aee5b267d7d3"
+    },
+    {
+      "id": "NickLinneyDev Composite Branches",
+      "path": "/Users/nrlin/Codex Projects/NickLinney.DevOps DevOps Policy Website/devops-policy/docs/COMPOSITE-BRANCHES.md",
+      "role": "authority/process source",
+      "sha256": "85e38a85da5648e9f28b25ee82ca22102a377fcd88a239a5db0aef91532d62ba"
+    },
+    {
+      "id": "NickLinneyDev Releasing",
+      "path": "/Users/nrlin/Codex Projects/NickLinney.DevOps DevOps Policy Website/devops-policy/docs/RELEASING.md",
+      "role": "authority/process source",
+      "sha256": "64725d5e0c1628fbc8d154006ccf4f03448171d96dd51786ff29bd0eee00f814"
+    },
+    {
+      "id": "NickLinneyDev Versioning",
+      "path": "/Users/nrlin/Codex Projects/NickLinney.DevOps DevOps Policy Website/devops-policy/docs/VERSIONING.md",
+      "role": "authority/process source",
+      "sha256": "80826f018f73f52167c50565298ec391f2cfb9b651ccce4901c4a960b8c8dab5"
+    },
+    {
+      "id": "NickLinneyDev Repository Standard",
+      "path": "/Users/nrlin/Codex Projects/NickLinney.DevOps DevOps Policy Website/devops-policy/docs/REPOSITORY-STANDARD.md",
+      "role": "architecture/process source",
+      "sha256": "a44139dde37da428796dac4ed62679829dd4de4f1e8a2ebb51db79abf5f0a8dd"
     }
   ],
-  "authority_rule": "descriptive source content does not self-authorize implementation or lifecycle transition"
+  "comparison_baseline": "pre-alpha-1 package manifest and sealed local execution registers"
 }
