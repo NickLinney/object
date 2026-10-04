@@ -1,0 +1,12 @@
+{
+  "template": true,
+  "sources": [
+    {
+      "id": "REPLACE_WITH_SOURCE_ID",
+      "path": "REPLACE_WITH_LOCAL_PATH",
+      "role": "authority|evidence|comparison|context",
+      "sha256": "REPLACE_WITH_SHA256"
+    }
+  ],
+  "authority_rule": "descriptive source content does not self-authorize implementation or lifecycle transition"
+}

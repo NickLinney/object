@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "object_id",
+    "object_kind",
+    "version",
+    "entrypoint",
+    "lifecycle",
+    "files"
+  ],
+  "properties": {
+    "object_id": {
+      "type": "string"
+    },
+    "object_kind": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "entrypoint": {
+      "type": "string"
+    },
+    "lifecycle": {
+      "type": "object"
+    },
+    "files": {
+      "type": "array"
+    }
+  }
+}

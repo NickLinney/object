@@ -1,0 +1,4 @@
+interface:
+  display_name: NickLinney Object Package
+  short_description: Governed Object package using the Context Packet structure
+  default_prompt: Apply the package contract, preserve provenance, and report lifecycle qualification.
