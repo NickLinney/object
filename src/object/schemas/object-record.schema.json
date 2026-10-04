@@ -4,10 +4,7 @@
   "required": [
     "object_id",
     "kind",
-    "purpose",
-    "provenance",
-    "lifecycle",
-    "validation"
+    "purpose"
   ],
   "properties": {
     "object_id": {
@@ -19,14 +16,11 @@
     "purpose": {
       "type": "string"
     },
-    "provenance": {
-      "type": "object"
-    },
-    "lifecycle": {
-      "type": "object"
-    },
-    "validation": {
-      "type": "object"
-    }
+    "name": { "type": "string" },
+    "controller": { "type": "string" },
+    "representation": { "type": "string" },
+    "authority": { "type": "string" },
+    "states": { "type": "array" },
+    "nonclaims": { "type": "array" }
   }
 }

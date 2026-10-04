@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0-alpha.1
+
+- Corrected manifest self-integrity semantics by excluding the manifest from its ordinary content inventory.
+- Added explicit artifact-to-schema bindings and schema conformance validation.
+- Added machine-readable validation evidence with separate structural, parse, conformance, and integrity claims.
+- Added applicability semantics and initial relational provenance derivations.
+
+This is an Alpha release with bounded validation evidence. Runtime activation, deployment, and production execution remain outside the release claim.
+
 ## 0.0.0-pre-alpha.2
 
 - Added the DevOps process encapsulation Object.

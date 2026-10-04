@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "artifact": "packet.manifest.json",
+      "check": "JSON_PARSE_PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "STRUCTURAL_PASS",
+      "required_roles": [
+        "packet.manifest.json",
+        "abstract-specification.md",
+        "implementation-abstract.md",
+        "contract.md",
+        "catalog/source-register.json",
+        "schemas/package.manifest.schema.json",
+        "validation/README.md"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "JSON_PARSE_PASS",
+      "scope": "all package JSON except generated evidence",
+      "status": "PASS"
+    },
+    {
+      "bindings": [
+        {
+          "artifact": "packet.manifest.json",
+          "schema": "schemas/package.manifest.schema.json"
+        },
+        {
+          "artifact": "objects/devops-process-encapsulation.json",
+          "schema": "schemas/object-record.schema.json"
+        },
+        {
+          "artifact": "objects/devops-process-encapsulation.json",
+          "schema": "schemas/devops-process.schema.json"
+        }
+      ],
+      "check": "SCHEMA_CONFORMANCE_PASS",
+      "engine": "builtin-json-schema-subset",
+      "status": "PASS"
+    },
+    {
+      "check": "INTEGRITY_PASS",
+      "excluded": [
+        "packet.manifest.json",
+        "validation/package-validation.json"
+      ],
+      "inventory_entries": 20,
+      "status": "PASS"
+    }
+  ],
+  "claims_proved": [
+    "required package roles are present",
+    "package JSON records parse",
+    "declared artifact-to-schema bindings conform",
+    "ordinary content inventory hashes and byte counts match"
+  ],
+  "nonclaims": [
+    "behavioral execution is not validated",
+    "authorization, activation, deployment, and production execution are not inferred",
+    "manifest integrity is delegated to an external release envelope or signature"
+  ],
+  "package": "OBJ-ABSTRACT-OBJECT-PACKAGE-STRUCTURE",
+  "scope": "exact working-tree package at validation time",
+  "state": "VALIDATED_WITH_EXPLICIT_EVIDENCE",
+  "validator_version": "1.0.0-alpha.1"
+}
